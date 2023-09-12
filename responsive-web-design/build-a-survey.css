@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #f4d03f, #3498db); /* Pastel Yellow to Pastel Blue Gradient */
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    color: #ec407a; /* Pastel Pink */
+}
+
+#description {
+    text-align: center;
+    color: #42a5f5; /* Pastel Blue */
+}
+
+#survey-form {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    color: #7f8c8d; /* Pastel Gray */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #7f8c8d;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+select {
+    background-color: #ecf0f1; /* Pastel Gray */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#submit {
+    background-color: #ec407a; /* Pastel Pink */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#submit:hover {
+    background-color: #d81b60; /* Darker Pink on Hover */
+}
+

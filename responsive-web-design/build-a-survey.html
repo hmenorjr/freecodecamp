@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="build-a-survey.css">
+    <title>The Survey</title>
+</head>
+<body>
+    <h1 id="title">The Survey</h1>
+    <p id="description">This is a short survey project with freecodecamp.</p>
+    <form id="survey-form">
+        <p>
+            <label id="name-label">Name</label>:
+            <input id="name" type="text" required placeholder="Jon Doe">
+        </p>
+        <p>
+            <label id="email-label">Email</label>:
+            <input id="email" type="email" placeholder="john.doe@email.com" required>
+        </p>
+        <p>
+            <label id="number-label">Age</label> (optional):
+            <input id="number" type="number" min=1 max=100 placeholder="1">
+        </p>
+        Which option best describes you?
+            <select id="dropdown">
+                <option value disabled selected>Select what describes you</option>
+                <option value="student">student</option>
+                <option value="worker">worker</option>
+            </select>
+        
+        <p>
+            <label>
+                Recommend freecodecamp?
+                <input type="radio" value="yes" name="user-recommend" checked>Yes
+                <input type="radio" value="no" name="user-recommend">No
+            </label>
+        </p>
+        <p>
+            <label>
+                Which food do you eat?
+                <input type="checkbox" name="prefer" value="meat">meat
+                <input type="checkbox" name="prefer" value="vegetables">vegetables
+            </label>
+        </p>
+        <p>
+            <label>
+                Other comments?
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            </label>
+        </p>
+        <input type="submit" id="submit">
+    </form>
+</body>
+</html>
